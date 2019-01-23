@@ -158,6 +158,7 @@ public class HomeView extends JPanel implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
+<<<<<<< HEAD
 		Object source = e.getSource();
 		if (source.equals(logoutButton)) {
 			manager.logout();			
@@ -182,6 +183,9 @@ public class HomeView extends JPanel implements ActionListener {
 		if (source.equals(closeButton)) {
 			manager.closeAccount();
 		} 
+=======
+				
+>>>>>>> 2a96704a222397d59e9ab1b071c3fec47874db52
 		// TODO
 		//
 		// this is where you'll setup your action listener, which is responsible for
